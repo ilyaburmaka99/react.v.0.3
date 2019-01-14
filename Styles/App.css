@@ -1,0 +1,14 @@
+import styled from 'styled-compotents'
+
+.block{
+  width: 90%;
+  height: 100%;
+  background: #e3e3e3;
+  left: 5%; /* Отступ в процентах от левого края окна */
+  position: absolute; /* Абсолютное позиционирование блока */
+  margin-top: 20px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+}
+
+.context{
+  margin: 20px 0px 0px 20px;
+}
